@@ -25,11 +25,15 @@ object {
 
 /* type hierarchy- change for your project */
 h1 {
-  font-size: 3em; /* 48px */
+  font-size: 3em; /* 50px */
+    font-family: 'Brush Script MT', cursive;
+    color: #FFADD6;
+    float: inherit;
 }
 
 h2 {
-  font-size: 2.25em /* 36px */
+  font-size: 2.25em /* 10px */
+      font-family: monaco, Consolas, 'Lucida Console', monospace;
 }
 
 h3 {
@@ -40,6 +44,10 @@ h4 {
   font-size: 1.125em /*18px */
 }
 
+body{
+    background-color: #C1EAFF;
+    padding: 10px;
+}
 /* =======================================
     author styles
     place your custom styles below here
