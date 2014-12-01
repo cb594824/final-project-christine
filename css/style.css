@@ -21,19 +21,21 @@ html {
 img,
 object {
   max-width: 100%;
+    float: right;
+    margin-right: 2%;
 }
 
 /* type hierarchy- change for your project */
 h1 {
   font-size: 3em; /* 50px */
     font-family: 'Brush Script MT', cursive;
-    color: #FFADD6;
+    color: #000066;
     float: inherit;
 }
 
 h2 {
-  font-size: 2.25em /* 10px */
-      font-family: monaco, Consolas, 'Lucida Console', monospace;
+  font-size: 20px;
+      font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 }
 
 h3 {
@@ -45,9 +47,45 @@ h4 {
 }
 
 body{
-    background-color: #C1EAFF;
+    background-color: #99CCFF;
     padding: 10px;
+    font-size:20px;
 }
+
+.p{
+    font-size: 12p;
+}
+
+.open{
+    padding: 5%;
+    border: 2px solid black;
+    background-color: lightgray;
+}
+
+.ingredients{
+    padding:2%;
+    border: 2px solid black;
+    background-color: lightgray;
+    width: 30%;
+    font-size:16px;
+    font-family:'Brush Script MT',;
+    float:left;
+}
+
+.steps{
+    padding:2%;
+    border: 2px solid black;
+    background-color: lightgray;
+    width: 65%;
+    font-size:16px;
+    font-family:'Brush Script MT',;
+    float:right;
+}
+    
+
+
+
+
 /* =======================================
     author styles
     place your custom styles below here
