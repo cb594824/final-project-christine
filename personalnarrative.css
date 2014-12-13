@@ -2,7 +2,7 @@ body{
     background-color: #99CCFF;
     padding: 10px;
     font-size:14px;
-    margin:20%;
+    margin:10%;
 }
 
 .background{
@@ -12,9 +12,6 @@ body{
 }
 
 p{
-    font-size: 14px;
-}
-
-.font{
     font-size:14px;
 }
+
