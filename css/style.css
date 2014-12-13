@@ -21,8 +21,8 @@ html {
 img,
 object {
   max-width: 100%;
-    float: right;
     margin-right: 2%;
+    border: 2px solid black;
 }
 
 /* type hierarchy- change for your project */
@@ -59,33 +59,69 @@ body{
 .open{
     padding: 5%;
     border: 2px solid black;
-    background-color: lightgray;
+    background-color: #FFE6FF ;
 }
 
 .ingredients{
     padding:2%;
     border: 2px solid black;
-    background-color: lightgray;
+    background-color: #FFE6FF ;
     width: 30%;
     font-size:16px;
     font-family:'Brush Script MT',;
     float:left;
+    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 }
 
 .steps{
     padding:2%;
-    border: 2px solid black;
-    background-color: lightgray;
     width: 65%;
     font-size:16px;
     font-family:'Brush Script MT',;
     float:right;
+    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 }
+
+.page{
+    background-color:#FFE6FF ;
+    border: 3px solid black;
+}
+
+body{
+    background-image: url(../img/eight_horns/eight_horns.png);
+}
+
+
+.about{
+    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+    font-size: 14px;
+    width:20%;
+}
+
+ul{
+    list-style: none;
+}
+.ingredients{
+    list-style: circle;
+}
+
+.intro{
+    float:right;
+    width:60%;
+    padding:30px 30px 30px 30px;
+    margin-right:75px;
+    margin-top:20px;
+    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+    font-size: 18px;
+}
+.picture1{
+    float: left;
+}
+
+
+
+
     
-
-
-
-
 /* =======================================
     author styles
     place your custom styles below here
